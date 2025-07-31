@@ -5,9 +5,6 @@ interface Product {
 }
 
 const CardList : React.FC<{productList : Product[]}>= (props) => {
-  console.log(props.productList);
-  
-
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       {props.productList.map((product) => (
