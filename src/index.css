@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme1 {
+  --bg-color: white;
+  --text-color: black;
+}
+.theme2 {
+  --bg-color: #1f2937;
+  --text-color: rgb(225, 167, 167);
+}
+.theme3 {
+  --bg-color: #ffe4e6;
+  --text-color: #1e3a8a;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
